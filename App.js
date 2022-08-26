@@ -1,10 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello motherfucker!</Text>
+      <Text style={styles.text}>
+        Kak zhe ya zaebalsya vklyutchat' ebanyi android studio!!
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,11 +15,12 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'black',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "black",
+    alignItems: "center",
+    justifyContent: "center",
   },
   text: {
-    color: "white"
-  }
+    color: "white",
+
+  },
 });
